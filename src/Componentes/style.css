@@ -1,0 +1,36 @@
+.contBanner{
+    width: 100%;
+    height: 495px;
+    background-color: red;
+}
+.imagenVista{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 0px;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    height: 495px;
+    background-color: green;
+}
+
+.contBanner:after {
+    position:absolute;
+    color:azure;
+    top:50%;
+    content: "<";
+    font-size:50px;
+    margin:0px 0px 0px 50px;
+    left: 0px;
+}
+
+.contBanner:before {
+    position:absolute;
+    color:azure;
+    top:50%;
+    content: ">";
+    font-size:50px;
+    margin:0px 50px 0px 0px;
+    right: 0px;
+}
